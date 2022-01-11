@@ -8,17 +8,19 @@ import { FaLinkedinIn } from 'react-icons/fa';
 
 import "../Components/Footer.css"
 
-export const Legos = () => {
+const Legos = () => {
     return (
         <div>
-           <Section/>
-           <div className="footer">
-           <FaTwitter className="Twiter"/>
-           <FaFacebook className="Facebook"/>
-           <FaInstagram className="Instagram"/>
-           <FaYoutube className="Youtube"/>
-           <FaLinkedinIn className="LinkedinIn"/>
-           </div>
+         <Section/>
+         <div className="footer">
+         <FaTwitter className="Twiter"/>
+         <FaFacebook className="Facebook"/>
+         <FaInstagram className="Instagram"/>
+         <FaYoutube className="Youtube"/>
+         <FaLinkedinIn className="LinkedinIn"/>
+         </div>
         </div>
     )
 }
+
+export default Legos

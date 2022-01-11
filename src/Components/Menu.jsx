@@ -18,7 +18,7 @@ const Menu = () => {
                 </Link>
             </li>
             <li className ='nav-item'>
-                <Link to ='/lego' className ='nav-links' onClick={handleClick}>
+                <Link to ='/legos' className ='nav-links' onClick={handleClick}>
                       Lego City
                 </Link>
             </li>
