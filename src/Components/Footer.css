@@ -1,0 +1,48 @@
+.footer{
+    background-color: #D5E8FA;
+    margin-top: 0.5rem;
+    padding:3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Twiter{
+   color: #009DED;
+   font-size: 2rem;
+}
+.Twiter:hover{
+    color: #0484c4;
+ }
+.Facebook{
+    color:#395693;
+    font-size: 2rem;
+    margin-left: .9rem;
+}
+.Facebook:hover{
+    color:#4a659e;
+    
+}
+.Instagram{
+ color: #CE1D4A;
+ font-size: 2rem;
+ margin-left: .9rem;
+}
+.Instagram:hover{
+    color: #da5375;
+   }
+.Youtube{
+    color:#F70100;
+    font-size: 2rem;
+    margin-left: .9rem;
+}
+.Youtube:hover{
+    color:#d83f3f;
+}
+.LinkedinIn{
+    color: #1C88AF;
+    font-size: 2rem;
+    margin-left: .9rem;
+}
+.LinkedinIn:hover{
+    color: #13a1d4;
+}

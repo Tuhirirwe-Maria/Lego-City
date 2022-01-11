@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Stick No Bills', sans-serif;
+}
+.menu-icon{
+    font-size: 3rem;
+    position: fixed;
+    z-index: 1;
+    top: 2%;
+    right: 21.5%;
+    color: #FED634;
+}
+.menu-icon:hover{
+    color: #cca91f;
+}
+.header{
+  height: 100vh;
+  width: 100%;
+}
+.bg-image{
+    height: 100vh;
+    /* width: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px); 
+    z-index: -1; 
+}
+.bg-text {
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+   
+  }
+  .nav-menu{
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    opacity: 0.9;
+    text-align: center;
+    overflow-x: hidden;
+    background-color: #D5E8FA;
+    transition: 0.5s;
+    padding-top: 60px;
+    list-style:none;
+  }
+  .nav-menu.active{
+    width: 21%;
+    position: fixed;
+    z-index: 1;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    opacity: 0.9;
+    text-align: center;
+    background-color: #D5E8FA;
+    transition: 0.4s;
+    padding-top: 60px;
+    list-style:none;
+  }
+  .nav-menu h2{
+    padding: 1.5rem .9rem .8rem ;
+    text-decoration: none;
+    font-size: 3rem;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+  }
+  .nav-links{
+    padding: 2rem 1rem 2rem 1rem ;
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #d3c22d;
+    display: block;
+    transition: 0.2s;
+  }
+  .nav-links:hover{
+    color: #FDD637;
+    border-bottom: 2px solid #FDD637;
+    border-width: 10%;
+  }
+
+
+
+  @media screen and (max-width: 960px) {
+    .menu-icon {
+        display: none;
+      }
+      
+  }
